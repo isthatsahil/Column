@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:600,400,300);
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /* // background:#fafafa; */
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+    
+   }
+*:focus {
+       outline: 0;
+   }
+.navbar-toggler{
+    border: none;
+    outline: none;
+}
+.navbar-brand{
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    font-family: 'Pacifico', cursive;
+    margin-left:2em; 
+}
+#navbarTogglerDemo03 li a{
+    padding-left: 4em;
+}
+
+.btnOutline{
+    color: white;
+    background-color: #2B9DDF;
+    border:2px solid #2B9DDF;
+    border-radius: 25px;
+    width: 175px;
+    height: 53px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.btnOutline:hover{
+    color: white;
+    background-color: #2B9DDF;
+    transition: all 0.2s ease;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    
+    padding: 0 5%;
+    background: url(../image/background_header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right; 
+}
+
+.wrapper{
+    display: grid;
+   
+    padding-top:150px; 
+    
+}
+.main-title{
+    color: #2B9DDF;
+    width: 40%;
+    margin: 2em 0 0 4em;
+     
+}
+.main-title h1{
+    font-weight: bold;
+}
